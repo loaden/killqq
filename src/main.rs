@@ -9,6 +9,12 @@ fn main() {
 
 fn kill_qq(contents: &String) -> String {
     println!("{}!", contents.len());
+    for line in contents.lines() {
+        println!("LINE: {}", line);
+        for piece in line.split("-") {
+            println!("SPLIT: {}", piece);
+        }
+    }
     let ret = String::from("return");
     ret
 }
