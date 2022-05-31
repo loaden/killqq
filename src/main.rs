@@ -17,10 +17,13 @@ fn main() {
             break;
         }
     }
+
+    let not = fs::read_to_string("not.txt").expect("not.txt does not exist");
+    let s = undo_rules(not, &mut rules);
+    fs::write("exclude.txt", s.as_str()).expect("exclude.txt failed to write");
 }
 
 fn kill_qq(contents: String, rules: &mut String) -> usize {
-    println!("{}!", contents.len());
     let re = Regex::new(
         r"((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}",
     )
@@ -36,4 +39,28 @@ fn kill_qq(contents: String, rules: &mut String) -> usize {
 
     println!("{}", rules);
     rules.len()
+}
+
+fn undo_rules(not: String, rules: &mut String) -> String {
+    let mut undo = String::new();
+    let re = Regex::new(
+        r"((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}",
+    )
+    .unwrap();
+    for line in rules.lines() {
+        let ip = re.captures(line).unwrap();
+        let mut exclude = false;
+        for ex in not.lines() {
+            if ip[0].starts_with(ex) {
+                exclude = true;
+                break;
+            }
+        }
+        if exclude {
+            undo.push_str(format!("undo network host address {}\n", &ip[0]).as_str());
+        }
+    }
+
+    println!("{}", undo);
+    undo
 }
