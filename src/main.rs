@@ -4,8 +4,9 @@ use std::fs;
 fn main() {
     let contents = fs::read_to_string("in.txt").expect("in.txt does not exist");
     let mut rules = fs::read_to_string("rules.txt").expect("rules.txt does not exist");
-    kill_qq(contents, &mut rules);
+    let exist = kill_qq(contents, &mut rules);
     fs::write("rules.txt", rules.as_str()).expect("write rules.txt failed");
+    fs::write("exist.txt", exist.as_str()).expect("write exist.txt failed");
 
     let mut undo = String::new();
     let mut cnt = 0;
@@ -23,22 +24,27 @@ fn main() {
     fs::write("exclude.txt", s.as_str()).expect("exclude.txt failed to write");
 }
 
-fn kill_qq(contents: String, rules: &mut String) -> usize {
+fn kill_qq(contents: String, rules: &mut String) -> String {
     let re = Regex::new(
         r"((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})(\.((2(5[0-5]|[0-4]\d))|[0-1]?\d{1,2})){3}",
     )
     .unwrap();
+    let mut exist = String::new();
     for line in contents.lines() {
         for cap in re.captures_iter(line) {
-            if !&cap[1].eq("10") && rules.find(&cap[0]).is_none() {
-                rules.push_str(format!("network host address {}\n", &cap[0]).as_str());
-                println!("RET: {}", &cap[0]);
+            if !&cap[1].eq("10") {
+                if rules.find(&cap[0]).is_none() {
+                    rules.push_str(format!("network host address {}\n", &cap[0]).as_str());
+                    println!("RET: {}", &cap[0]);
+                } else {
+                    exist.push_str(format!("undo network host address {}\n", &cap[0]).as_str());
+                }
             }
         }
     }
 
     println!("{}", rules);
-    rules.len()
+    exist
 }
 
 fn undo_rules(not: String, rules: &mut String) -> String {
