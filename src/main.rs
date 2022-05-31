@@ -6,7 +6,7 @@ fn main() {
     let mut rules = fs::read_to_string("rules.txt").expect("rules.txt does not exist");
     kill_qq(contents, &mut rules);
     fs::write("rules.txt", rules.as_str()).expect("write rules.txt failed");
-    
+
     let mut undo = String::new();
     let mut cnt = 0;
     loop {
@@ -30,7 +30,7 @@ fn kill_qq(contents: String, rules: &mut String) -> usize {
     .unwrap();
     for line in contents.lines() {
         for cap in re.captures_iter(line) {
-            if ! &cap[1].eq("10") && rules.find(&cap[0]).is_none() {
+            if !&cap[1].eq("10") && rules.find(&cap[0]).is_none() {
                 rules.push_str(format!("network host address {}\n", &cap[0]).as_str());
                 println!("RET: {}", &cap[0]);
             }
