@@ -150,3 +150,10 @@ network host address 220.194.81.125
 network host address 58.246.163.237
 network host address 218.68.90.213
 network host address 116.162.40.108
+network host address 157.148.50.71
+network host address 220.194.81.56
+network host address 218.68.90.235
+network host address 36.248.5.68
+network host address 58.251.112.192
+network host address 119.167.131.87
+network host address 112.86.240.226
