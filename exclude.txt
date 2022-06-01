@@ -1,1 +1,8 @@
-wx.qq.com
+weixin
+
+web
+undo network host address 220.194.117.175
+undo network host address 122.188.38.246
+undo network host address 119.188.206.100
+undo network host address 61.54.91.181
+undo network host address 111.206.100.249
