@@ -6,7 +6,7 @@ fn main() {
     let mut rules = fs::read_to_string("rules.txt").expect("rules.txt does not exist");
     let exist = kill_qq(contents, &mut rules);
     fs::write("rules.txt", rules.as_str()).expect("write rules.txt failed");
-    fs::write("exist.txt", exist.as_str()).expect("write exist.txt failed");
+    fs::write("tmp", exist.as_str()).expect("write failed");
 
     let mut undo = String::new();
     let mut cnt = 0;
@@ -21,7 +21,7 @@ fn main() {
 
     let not = fs::read_to_string("not.txt").expect("not.txt does not exist");
     let s = undo_rules(not, &mut rules);
-    fs::write("exclude.txt", s.as_str()).expect("exclude.txt failed to write");
+    fs::write("ex", s.as_str()).expect("failed to write");
 }
 
 fn kill_qq(contents: String, rules: &mut String) -> String {
