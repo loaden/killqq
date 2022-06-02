@@ -1,5 +1,4 @@
-
-# QQ邮箱、微信以及微信公众号
+# 钉钉、QQ邮箱、微信以及微信公众号
 undo network host address 220.194.117.175
 undo network host address 122.188.38.246
 undo network host address 119.188.206.100
@@ -32,6 +31,11 @@ undo network host address 27.221.71.179
 # 腾讯文档可能相关
 undo network host address 239.255.255.250
 undo network host address 119.167.147.251
+# 补充一
+undo network host address 42.236.79.176
+undo network host address 112.80.129.94
+undo network host address 60.29.238.85
+undo network host address 60.28.219.34
 # QQ文件
 network host address 220.194.116.39
 network host address 125.39.133.122
