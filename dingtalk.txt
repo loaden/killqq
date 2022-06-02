@@ -1,0 +1,69 @@
+- All Traffic
+  - My Traffic
+   + <Unknown>
+   + WinVNC.exe (5044)
+   + QQ.exe (3156)
+   + Unknown (2360)
+   + chrome.exe (4720)
+   + System (4)
+   + mottynew.exe (3828)
+   + AnyDesk.exe (1296)
+   + ToDesk_Service.exe (1776)
+   + SunloginClient.exe (1580)
+   + System (0)
+   - DingTalk.exe (3952)
+    + IPv4 (10.35.99.66 - 114.112.210.6) ConvID = 495
+    + IPv4 (10.35.99.66 - 203.119.205.54) ConvID = 527
+    + IPv4 (10.35.99.66 - 106.11.40.32) ConvID = 550
+    + IPv4 (10.35.99.66 - 27.221.120.69) ConvID = 569
+    + IPv4 (10.35.99.66 - 27.221.119.154) ConvID = 581
+    + IPv4 (10.35.99.66 - 114.112.210.35) ConvID = 736
+    + IPv4 (10.35.99.66 - 114.112.210.36) ConvID = 4808
+    + IPv4 (10.35.99.66 - 114.112.210.37) ConvID = 5896
+    + IPv4 (10.35.99.66 - 106.11.43.160) ConvID = 1150
+    + IPv4 (10.35.99.66 - 106.11.43.136) ConvID = 64742
+   - DingTalk.exe (672)
+    + IPv4 (10.35.99.66 - 27.221.119.154) ConvID = 581
+    + IPv4 (10.35.99.66 - 27.221.120.70) ConvID = 632
+    + IPv4 (10.35.99.66 - 203.119.211.255) ConvID = 678
+    + IPv4 (10.35.99.66 - 203.119.169.104) ConvID = 751
+    + IPv4 (10.35.99.66 - 106.11.40.32) ConvID = 550
+    + IPv4 (10.35.99.66 - 27.221.123.252) ConvID = 784
+    + IPv4 (10.35.99.66 - 59.82.34.216) ConvID = 834
+    + IPv4 (10.35.99.66 - 203.119.169.39) ConvID = 863
+    + IPv4 (10.35.99.66 - 203.119.169.141) ConvID = 871
+    + IPv4 (10.35.99.66 - 203.119.169.69) ConvID = 873
+    + IPv4 (10.35.99.66 - 119.167.220.217) ConvID = 882
+    + IPv4 (10.35.99.66 - 106.11.209.59) ConvID = 892
+    + IPv4 (10.35.99.66 - 114.112.210.11) ConvID = 909
+    + IPv4 (10.35.99.66 - 27.221.5.219) ConvID = 930
+    + IPv4 (10.35.99.66 - 114.55.180.23) ConvID = 1106
+    + IPv4 (10.35.99.66 - 106.11.43.160) ConvID = 1150
+    + IPv4 (10.35.99.66 - 203.119.144.56) ConvID = 2195
+    + IPv4 (10.35.99.66 - 27.221.119.155) ConvID = 2198
+    + IPv4 (10.35.99.66 - 116.132.252.112) ConvID = 2244
+    + IPv4 (10.35.99.66 - 59.82.31.93) ConvID = 2308
+    + IPv4 (10.35.99.66 - 114.112.210.10) ConvID = 2359
+    + IPv4 (10.35.99.66 - 106.11.35.100) ConvID = 2398
+    + IPv4 (10.35.99.66 - 203.119.207.126) ConvID = 2545
+    + IPv4 (10.35.99.66 - 59.82.29.160) ConvID = 2569
+    + IPv4 (10.35.99.66 - 203.119.169.178) ConvID = 2649
+   + chrome.exe (5136)
+   + txupd.exe (6744)
+   + Code.exe (1000)
+   + Code.exe (3216)
+   + QQProtect.exe (1452)
+   + wpsupdate.exe (6784)
+   + HRUpdate.exe (6912)
+   + svchost.exe (272)
+   + QQProtectUpd.exe (6752)
+   + sshd.exe (1556)
+   + GoogleUpdate.exe (6836)
+   + HRUpdate.exe (2452)
+   + HRUpdate.exe (6180)
+   + QQProtectUpd.exe (4952)
+   + wpsupdate.exe (5632)
+   + GoogleUpdate.exe (6692)
+   + svchost.exe (956)
+  - Other Traffic
+   + <Unknown>
