@@ -303,3 +303,13 @@ network host address 125.39.25.60
 network host address 111.30.191.107
 network host address 36.155.208.26
 network host address 119.167.131.86
+network host address 58.144.206.141
+network host address 36.155.213.223
+network host address 120.232.32.89
+network host address 119.167.131.93
+network host address 120.232.27.150
+network host address 125.39.104.18
+network host address 119.167.131.87
+network host address 116.147.18.198
+network host address 112.86.231.169
+network host address 111.33.189.81
