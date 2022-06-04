@@ -135,3 +135,70 @@
    + GoogleUpdate.exe (4308)
   - Other Traffic
    + <Unknown>
+
+
+- All Traffic
+  - My Traffic
+   + QQ.exe (2528)
+   + <Unknown>
+   + Code.exe (3604)
+   + Explorer.EXE (2748)
+   + System (0)
+   + GoogleUpdate.exe (2464)
+   + svchost.exe (956)
+   + GoogleUpdate.exe (2444)
+   + QQProtect.exe (1452)
+   + Code.exe (7260)
+   - DingTalk.exe (2676)
+    + IPv4 (10.35.99.66 - 114.112.210.35) ConvID = 12043
+    + IPv4 (10.35.99.66 - 203.119.205.54) ConvID = 12051
+    + IPv4 (10.35.99.66 - 106.11.40.32) ConvID = 12059
+    + IPv4 (10.35.99.66 - 27.221.119.154) ConvID = 12098
+    + IPv4 (10.35.99.66 - 114.112.210.37) ConvID = 12215
+    + IPv4 (10.35.99.66 - 180.95.230.116) ConvID = 19620
+    + IPv4 (10.35.99.66 - 114.112.210.36) ConvID = 15945
+    + IPv4 (10.35.99.66 - 106.11.43.136) ConvID = 69807
+    + IPv4 (10.35.99.66 - 203.119.218.173) ConvID = 77444
+    + IPv4 (10.35.99.66 - 106.11.43.160) ConvID = 12071
+   - DingTalk.exe (7644)
+    + IPv4 (10.35.99.66 - 27.221.120.70) ConvID = 12065
+    + IPv4 (10.35.99.66 - 203.119.211.255) ConvID = 12112
+    + IPv4 (10.35.99.66 - 106.11.40.32) ConvID = 12059
+    + IPv4 (10.35.99.66 - 211.91.70.228) ConvID = 12147
+    + IPv4 (10.35.99.66 - 59.82.34.216) ConvID = 12162
+    + IPv4 (10.35.99.66 - 203.119.169.83) ConvID = 12173
+    + IPv4 (10.35.99.66 - 203.119.169.240) ConvID = 12182
+    + IPv4 (10.35.99.66 - 218.11.15.213) ConvID = 12194
+    + IPv4 (10.35.99.66 - 106.11.208.4) ConvID = 12207
+    + IPv4 (10.35.99.66 - 203.119.144.229) ConvID = 12234
+    + IPv4 (10.35.99.66 - 27.221.119.155) ConvID = 12357
+    + IPv4 (10.35.99.66 - 27.221.119.154) ConvID = 12098
+    + IPv4 (10.35.99.66 - 203.119.169.228) ConvID = 22822
+    + IPv4 (10.35.99.66 - 114.112.210.10) ConvID = 12385
+    + IPv4 (10.35.99.66 - 59.82.34.217) ConvID = 22853
+    + IPv4 (10.35.99.66 - 106.11.35.100) ConvID = 22859
+    + IPv4 (10.35.99.66 - 114.112.210.11) ConvID = 25415
+    + IPv4 (10.35.99.66 - 106.11.43.160) ConvID = 12071
+   + chrome.exe (1424)
+   + WeChat.exe (1276)
+   + svchost.exe (272)
+   + Unknown (1424)
+   + mottynew.exe (3652)
+   + mottynew.exe (8112)
+   + chrome.exe (5516)
+   + sshd.exe (1556)
+   + System (4)
+   + HRUpdate.exe (6736)
+   + wpsupdate.exe (2900)
+   + GoogleUpdate.exe (2908)
+   + wpsupdate.exe (3556)
+   + wpsupdate.exe (3868)
+   + GoogleUpdate.exe (2664)
+   + wpsupdate.exe (1600)
+   + GoogleUpdate.exe (6412)
+   + DingTalk.exe (3736)
+   + DingTalk.exe (5556)
+   + QQProtectUpd.exe (4172)
+   + CrashDumper.exe (3988)
+  - Other Traffic
+   + <Unknown>

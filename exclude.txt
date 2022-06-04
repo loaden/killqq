@@ -23,6 +23,11 @@ undo network host address 42.236.79.205
 undo network host address 114.112.221.211
 undo network host address 239.255.255.250
 undo network host address 114.112.221.145
+undo network host address 111.166.22.232
+undo network host address 220.194.116.39
+undo network host address 125.39.133.122
+undo network host address 58.144.163.155
+undo network host address 157.255.5.126
 
 # 腾讯文档
 undo network host address 220.194.116.25
