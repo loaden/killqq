@@ -13,7 +13,7 @@ fn main() {
     loop {
         undo.push_str(format!("undo {}\n", cnt).as_str());
         cnt += 10;
-        if cnt > 3600 {
+        if cnt > 5000 {
             fs::write("undo.txt", undo.as_str()).expect("write undo.txt failed");
             break;
         }
