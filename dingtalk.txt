@@ -202,3 +202,79 @@
    + CrashDumper.exe (3988)
   - Other Traffic
    + <Unknown>
+
+
+- All Traffic
+  - My Traffic
+   + QQ.exe (4712)
+   + <Unknown>
+   + QQProtect.exe (1452)
+   + mottynew.exe (4540)
+   + System (4)
+   + System (0)
+   + Code.exe (3076)
+   + Code.exe (2560)
+   + svchost.exe (272)
+   + HRUpdate.exe (5920)
+   + sshd.exe (1556)
+   + Explorer.EXE (2748)
+   + HRUpdate.exe (2260)
+   + HRUpdate.exe (672)
+   + wpsupdate.exe (7216)
+   + HRUpdate.exe (6740)
+   + wpsupdate.exe (8184)
+   + ssh.exe (5700)
+   + Code.exe (3420)
+   + mottynew.exe (1976)
+   + ssh.exe (3584)
+   + WeChat.exe (1068)
+   + WeChatBrowser.exe (6736)
+   + firefox.exe (3496)
+   + QQProtectUpd.exe (4136)
+   + DingTalk.exe (7900)
+   + DingTalkUpdater.exe (7348)
+   + DingTalk.exe (7416)
+   + CrashDumper.exe (2440)
+   + ssh.exe (7136)
+   - DingTalk.exe (7676)
+    + IPv4 (10.35.99.66 - 114.112.210.36) ConvID = 101587
+    + IPv4 (10.35.99.66 - 203.119.205.54) ConvID = 101629
+    + IPv4 (10.35.99.66 - 106.11.43.136) ConvID = 102986
+    + IPv4 (10.35.99.66 - 27.221.120.69) ConvID = 101839
+    + IPv4 (10.35.99.66 - 114.112.210.35) ConvID = 103461
+    + IPv4 (10.35.99.66 - 114.112.210.6) ConvID = 104574
+    + IPv4 (10.35.99.66 - 114.112.210.37) ConvID = 106765
+   - DingTalk.exe (3700)
+    + IPv4 (10.35.99.66 - 27.221.119.154) ConvID = 101647
+    + IPv4 (10.35.99.66 - 203.119.211.255) ConvID = 103097
+    + IPv4 (10.35.99.66 - 106.11.43.136) ConvID = 102986
+    + IPv4 (10.35.99.66 - 27.221.123.252) ConvID = 103156
+    + IPv4 (10.35.99.66 - 27.221.119.155) ConvID = 101917
+    + IPv4 (10.35.99.66 - 203.119.207.126) ConvID = 103396
+    + IPv4 (10.35.99.66 - 27.221.5.219) ConvID = 103451
+    + IPv4 (10.35.99.66 - 203.119.169.104) ConvID = 103453
+    + IPv4 (10.35.99.66 - 119.188.42.178) ConvID = 114529
+    + IPv4 (10.35.99.66 - 203.119.144.56) ConvID = 114551
+    + IPv4 (10.35.99.66 - 27.221.120.70) ConvID = 115280
+    + IPv4 (10.35.99.66 - 114.112.210.10) ConvID = 115303
+    + IPv4 (10.35.99.66 - 106.11.43.160) ConvID = 101857
+    + IPv4 (10.35.99.66 - 61.240.145.251) ConvID = 117675
+    + IPv4 (10.35.99.66 - 59.82.34.216) ConvID = 122330
+    + IPv4 (10.35.99.66 - 203.119.169.240) ConvID = 122343
+    + IPv4 (10.35.99.66 - 203.119.169.44) ConvID = 122352
+    + IPv4 (10.35.99.66 - 114.112.210.11) ConvID = 122363
+    + IPv4 (10.35.99.66 - 203.119.144.15) ConvID = 122451
+   + HRUpdate.exe (2780)
+   + mottynew.exe (4664)
+   + ssh.exe (3660)
+   + ssh.exe (7268)
+   + photolaunch.exe (2988)
+   + photolaunch.exe (4268)
+   + photolaunch.exe (2464)
+   + photolaunch.exe (8184)
+   + wpscloudsvr.exe (4100)
+   + ssh.exe (6480)
+   + ssh.exe (5156)
+   + ssh.exe (7188)
+   + ssh.exe (4856)
+    Other Traffic
